@@ -1,6 +1,8 @@
+# Data Structures: Arrays
+
 # Create Array
 $nameArr = @('Ann','James','Matthew','Sally','Albert','Bert')
-$nameArr
+$nameArr       # Visualize result
 
 # Read Array Elements
 $nameArr[0]    # Get first element
