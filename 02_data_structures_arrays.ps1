@@ -18,5 +18,5 @@ $nameArr = $nameArr + 'Sofia'
 $nameArr
 $nameArr += 'Steve'
 $nameArr
-$nameArr += @('Eric', 'David')
+$nameArr += @('Eric', 'David', 'George')
 $nameArr
