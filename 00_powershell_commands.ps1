@@ -1,5 +1,11 @@
 # Basic powershell commands
 
+# Hostname: The corresponding Linux command: # hostname 
+hostname
+
+# Username: The corresponding Linux command: # whoami
+whoami
+
 # The Preference variables
 Get-Variable -Name *Preference
 
