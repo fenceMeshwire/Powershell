@@ -28,3 +28,17 @@ while($valueA -lt $valueB) {
     $valueA += 1
     "$valueA <= $valueB"
 }
+
+# Do-While-Loop
+# =========================================
+do {
+    $valueA += 1
+    "$valueA <= $valueB"
+} while ($valueA -lt $valueB)
+
+# Do-Until-Loop
+# =========================================
+do {
+    $valueA += 1
+    "$valueA <= $valueB"
+} until ($valueA -ge $valueB)
