@@ -1,4 +1,4 @@
-# The If.Statement in PowerShell
+# The if-Statement in PowerShell
 
 # Example:
 
