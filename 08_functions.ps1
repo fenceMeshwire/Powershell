@@ -33,3 +33,30 @@ function get_age {
 
 Write-Host "How old are you?"
 get_age
+
+# =====================================================
+# Structure of a PowerShell function with validation attributes
+# =====================================================
+function question_employee {
+    param(
+    [Parameter(Mandatory)]
+    [ValidateSet(1, 2, 3, 4, 5)]
+    [int]$mood
+    )
+     switch($mood) {
+     1 {
+        Write-Host "Your mood is very good."
+     } 
+     2 {
+        Write-Host "Your mood is good."
+     } 
+     3 {
+        Write-Host "Your mood is ok."
+     } 
+     default {
+        "Please stay at home your mood is too bad."
+     }}
+}
+
+Write-Host "How is your mood today? 1-5 from good to bad"
+question_employee -mood 5
